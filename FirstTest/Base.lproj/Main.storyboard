@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="jz5-v5-prW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="jz5-v5-prW">
                                 <rect key="frame" x="-56" y="-7" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -50,29 +50,29 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="26" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVP-Be-V88">
-                                <rect key="frame" x="32" y="366" width="359.66666666666674" height="179.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="26" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVP-Be-V88">
+                                <rect key="frame" x="32" y="366" width="359.33333333333331" height="179.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MBTI : ENTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3r-C8-Uk6">
-                                        <rect key="frame" x="20" y="20" width="319.66666666666669" height="20.333333333333329"/>
+                                        <rect key="frame" x="20" y="20" width="319.33333333333331" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장점 : 빠른 실천" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0Z-Ey-It3">
-                                        <rect key="frame" x="20" y="46" width="319.66666666666669" height="20.333333333333329"/>
+                                        <rect key="frame" x="20" y="46" width="319.33333333333331" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="협업스타일 : 알아가는 중 입니다^^;; " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfb-EY-QFn">
-                                        <rect key="frame" x="20" y="72" width="319.66666666666669" height="20.333333333333329"/>
+                                        <rect key="frame" x="20" y="72" width="319.33333333333331" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cg-PZ-R6c">
-                                        <rect key="frame" x="20" y="98.333333333333314" width="319.66666666666669" height="61"/>
+                                        <rect key="frame" x="20" y="98.333333333333314" width="319.33333333333331" height="61"/>
                                         <color key="tintColor" red="0.4282824935253548" green="0.62614468305492355" blue="0.83795103092783507" alpha="0.89000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
                                         <string key="text">한마디 : 새로운 것을 배우는 것은 늘 즐겁습니다!
                 좋은 사람을 만나며 실력도 쌓는 
@@ -84,8 +84,9 @@
                                 </subviews>
                                 <directionalEdgeInsets key="directionalLayoutMargins" top="20" leading="20" bottom="20" trailing="20"/>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="블로그 : https://velog.io/@wisdomstar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IP-fq-jYQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="블로그 : https://velog.io/@wisdomstar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IP-fq-jYQ">
                                 <rect key="frame" x="74" y="681" width="265" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -93,10 +94,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="BVP-Be-V88" firstAttribute="centerY" secondItem="2IP-fq-jYQ" secondAttribute="centerY" id="NSe-jj-QAt"/>
-                            <constraint firstItem="BVP-Be-V88" firstAttribute="centerX" secondItem="2IP-fq-jYQ" secondAttribute="centerX" id="ZhO-AG-K2v"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -413,7 +410,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="6sx-O5-L1G">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="6sx-O5-L1G">
                                 <rect key="frame" x="-56" y="-7" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -561,7 +558,7 @@ SNS를 런칭하고 싶은 인규 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="SPL-vP-m2i">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="SPL-vP-m2i">
                                 <rect key="frame" x="-56" y="-7" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -571,13 +568,15 @@ SNS를 런칭하고 싶은 인규 
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0Bm-y1-efY">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8fa64d05c5ec628c5809e8faf26174e3_t" id="3vu-oU-eHP">
+                                            <rect key="frame" x="-71" y="104" width="535" height="320"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8fa64d05c5ec628c5809e8faf26174e3_t" id="3vu-oU-eHP">
-                                <rect key="frame" x="-71" y="266" width="535" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kBp-Hb-5ow"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -596,7 +595,7 @@ SNS를 런칭하고 싶은 인규 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="Sc4-TI-LDR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="Sc4-TI-LDR">
                                 <rect key="frame" x="-56" y="-7" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -687,7 +686,7 @@ SNS를 런칭하고 싶은 인규 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="Tn5-ut-aQ3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="Tn5-ut-aQ3">
                                 <rect key="frame" x="-50" y="-13" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1020,7 +1019,7 @@ SNS를 런칭하고 싶은 인규 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="s9w-38-jA9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="s9w-38-jA9">
                                 <rect key="frame" x="-56" y="-7" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1109,7 +1108,7 @@ SNS를 런칭하고 싶은 인규 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="pp0-jg-iiX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="pp0-jg-iiX">
                                 <rect key="frame" x="-56" y="-7" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1216,6 +1215,7 @@ SNS를 런칭하고 싶은 인규 
         <image name="Image 2" width="1456" height="1210"/>
         <image name="Image 3" width="932" height="1146"/>
         <image name="one stone two birds" width="421" height="246"/>
+        <image name="스크린샷 2024-05-29 오후 10.36.02" width="780" height="1054"/>
         <image name="스크린샷 2024-05-29 오후 10.36.02" width="780" height="1054"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
