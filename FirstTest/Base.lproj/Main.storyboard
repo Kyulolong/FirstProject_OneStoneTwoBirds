@@ -108,7 +108,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="jNH-74-1Oe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="스크린샷 2024-05-29 오후 10.36.02" translatesAutoresizingMaskIntoConstraints="NO" id="jNH-74-1Oe">
                                 <rect key="frame" x="-50" y="-13" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -572,7 +572,7 @@ SNS를 런칭하고 싶은 인규 
                                 <blurEffect style="regular"/>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team  One Stone Two Birds  Fighting!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cw2-IG-Um4">
-                                <rect key="frame" x="35" y="507" width="327" height="144"/>
+                                <rect key="frame" x="35" y="602" width="327" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
@@ -1227,7 +1227,6 @@ SNS를 런칭하고 싶은 인규 
         <image name="Image 2" width="1456" height="1210"/>
         <image name="Image 3" width="932" height="1146"/>
         <image name="one stone two birds" width="421" height="246"/>
-        <image name="스크린샷 2024-05-29 오후 10.36.02" width="780" height="1054"/>
         <image name="스크린샷 2024-05-29 오후 10.36.02" width="780" height="1054"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
