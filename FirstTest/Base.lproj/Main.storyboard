@@ -683,7 +683,7 @@ SNS를 런칭하고 싶은 인규 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Tn5-ut-aQ3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background123" translatesAutoresizingMaskIntoConstraints="NO" id="Tn5-ut-aQ3">
                                 <rect key="frame" x="-50" y="-13" width="504" height="865"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1211,7 +1211,6 @@ SNS를 런칭하고 싶은 인규 
         <image name="Image 1" width="1130" height="1234"/>
         <image name="Image 2" width="1456" height="1210"/>
         <image name="Image 3" width="932" height="1146"/>
-        <image name="background" width="780" height="1054"/>
         <image name="background123" width="780" height="1054"/>
         <image name="one stone two birds" width="421" height="246"/>
         <namedColor name="AccentColor">
